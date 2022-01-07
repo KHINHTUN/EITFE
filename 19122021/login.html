@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+  </head>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background-image: url(http://ais.badische-zeitung.de/piece/04/40/e4/42/71361602.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+    html,
+    body {
+      height: 100%;
+    }
+    .header {
+      color: rgb(247, 130, 110);
+      padding: 2rem;
+      width: 25%;
+      font-weight: normal;
+      margin-top: 1.5rem;
+      cursor: pointer;
+    }
+    .header:hover {
+      color: crimson;
+    }
+    .container {
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 1.5rem;
+      text-align: left;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .text {
+      width: 40%;
+      margin-bottom: 2rem;
+    }
+    text > h2 {
+      font-size: medium;
+      text-align: left;
+    }
+
+    .text > p {
+      margin: 0.1rem;
+      text-align: left;
+      line-height: 1.5rem;
+      font-size: 1.3rem;
+    }
+    .login-form {
+      text-align: left;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .login-form > div {
+      text-align: start;
+      filter: drop-shadow();
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      margin: 0.5rem;
+      border-radius: 0.31rem;
+    }
+
+    .login-form-name,
+    .login-form-password,
+    .login-form-email {
+      display: flex;
+      flex-direction: column;
+    }
+    .login-form-name #name,
+    .login-form-password #password,
+    .login-form-email #email {
+      height: 2.2rem;
+      width: 20rem;
+    }
+
+    .login-form-name label,
+    .login-form-password label,
+    .login-form-email label {
+      margin-bottom: 0.7px;
+    }
+
+    .btn-signin {
+      margin: 0.5rem;
+      padding: 1rem 0.9rem;
+      background-color: rgb(255, 171, 145);
+      color: white;
+      display: block;
+      border: none;
+      border-radius: 0.18rem;
+      transition: all 0.5s ease;
+      cursor: pointer;
+      font-size: 1.1rem;
+    }
+    .btn-signin:hover {
+      background-color: rgb(211, 68, 43);
+    }
+    input:focus {
+      box-shadow: 0px 0px 5px #298de4;
+      outline: none;
+    }
+    input {
+      border: 0.5px solid #bfbfbf;
+      border-radius: 5px;
+      padding: 10px;
+    }
+    @media (min-width: 456px) {
+      html,
+      body {
+        height: 100%;
+      }
+    }
+    @media (max-width: 772px) {
+      .container {
+        padding: 0 5%;
+      }
+      body {
+        background-image: url(http://ais.badische-zeitung.de/piece/04/40/e4/42/71361602.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+      }
+    }
+  </style>
+  <body>
+    <div class="header">
+      <h4><u>Log in➡</u></h4>
+    </div>
+    <div class="container">
+      <div class="text">
+        <h2>Create an Account</h2>
+        <p>
+          Check out quicker ,create wishlists track deliveries and get exclusive
+          updates on all things wild
+        </p>
+      </div>
+      <form class="login-form">
+        <div class="login-form-name">
+          <label for="Name">Full Name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div class="login-form-email">
+          <label for="email ">Email</label>
+
+          <input type="email" name="email" id="email" />
+        </div>
+
+        <div class="login-form-password">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" />
+        </div>
+        <button type="submit" class="btn-signin">Create Account</button>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header HW1</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: Roboto;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 2.5rem;
+      }
+      .navbar {
+        background-color: rgb(14, 120, 155);
+        padding: 0.5rem;
+      }
+      .navbar-nav {
+        display: flex;
+        color: lightskyblue;
+        list-style: none;
+      }
+      .nav-item {
+        padding: 0.7rem 1rem;
+        font-size: large;
+        cursor: pointer;
+        transition: all 0.5s;
+      }
+      .nav-item:hover {
+        color: rgb(55, 182, 233);
+        transform: scale(1.1);
+      }
+      .logo {
+        height: 5rem;
+        width: 5rem;
+        border-radius: 0.5rem;
+        transition: all 0.3s;
+      }
+      .logo:hover {
+        transform: rotate(5.5deg);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/2852/2852581.png"
+            class="logo"
+            alt="Bee"
+            title="EIT Personal Development Program"
+          />
+          <ul class="navbar-nav">
+            <li class="nav-item">HomeWork1</li>
+            <li class="nav-item">HomeWork2</li>
+            <li class="nav-item">HomeWork3</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div style="background-color: rgb(220, 242, 255)">
+      <u> <h1 style="text-align: center">HomeWork1</h1></u>
+      <hr />
+      <h1 style="background-color: rgb(204, 200, 250)">Best Web Development</h1>
+      <h2>Introduction</h2>
+      <p>
+        Editing <strong> HTML </strong>and<strong> CSS </strong> code can be
+        done with nothing but a simple text editor.However,if you’d <br />like
+        to take your programming skills <i>(and output)</i> to the next
+        level,it’s worth looking into an integrated development environment or
+        <strong> IDE </strong>.<br />
+        A bare-bones<strong> IDE </strong>will allow you to code,edit, test, and
+        debug. However, an advanced<strong> IDE </strong>, like the ones<br />
+        listed here, will offer many features that will enhance your programming
+        experiences like automation, visualization, and customization.
+      </p>
+      <h3>We should use the IDE</h3>
+      <ol>
+        <li>Visual Studio Code</li>
+        <li>IntelliJ IDEA</li>
+        <li>Sublime Text3</li>
+        <li>NetBeans</li>
+        <li>PyCharm</li>
+      </ol>
+      <h3>1.Visual Studio Code</h3>
+      <dl>
+        <dt>Pros&Cons</dt>
+        <dd>+ High speed</dd>
+        <dd>+ Beginner friendly</dd>
+        <dd>+ Well documented</dd>
+        <dd>+ Interoperability</dd>
+        <dd>+ Independency</dd>
+        <dd>- Security</dd>
+        <dd>- Controllable</dd>
+        <dd>- Compatibility</dd>
+      </dl>
+      <h3>2.IntelliJ IDEA</h3>
+      <dl>
+        <dt>Pros&Cons</dt>
+        <dd>
+          + Inbuilt support for a web server which makes Java web application
+          faster.
+        </dd>
+        <dd>
+          + Auto code completion. By just typing a few words, it will complete
+          the whole code block like try catch.
+        </dd>
+        <dd>
+          + Lots of plugins like<strong> Sonar Lint </strong>. Using those you
+          can analyse your code while writing it.
+        </dd>
+        <dd>+ Provides a decompiled code of libraries which can help a lot.</dd>
+        <dd>- It is a very heavy tool and consumes a lot of memory.</dd>
+        <dd>
+          - If you are a new java developer, then you shouldn't use it heavily
+          as it will affect your learning ability.
+        </dd>
+      </dl>
+      <h3>3.Sublime Text</h3>
+      <dl>
+        <dt>Pros&Cons</dt>
+        <dd>
+          + The biggest advantage over many other editors is the ability to open
+          large files. Some editors just can't open a<strong> CSV </strong>with
+          millions of lines but<br /><strong> Sublime Text </strong> does it
+          like a champ.
+        </dd>
+        <dd>
+          + Multiple selections let you change or create many instances of the
+          same variable or value with ease.
+        </dd>
+        <dd>
+          + The<i> Goto Anything </i> simplifies navigation and lets you
+          control, open, or move within files without ever having to take your
+          hands off the keyboard.
+        </dd>
+        <dd>
+          + Likewise, the command palette allows you to access any of the
+          application's functionality right from the keyboard.
+        </dd>
+        <dd>
+          + It is highly customizable with a rich ecosystem of third party
+          plugins and the ability to create your own.
+        </dd>
+        <dd>
+          - In a world of free and open text editors,<strong>
+            Sublime Text </strong
+          >does ask for donations. You can use the product freely with only a
+          very infrequent popup <br />
+          asking for donations. You can use it however long you like without
+          paying, but it is well worth it to donate to.
+        </dd>
+        <dd>
+          - People not used to the functionality may need a bit of time to get
+          up to speed using the documentation.
+        </dd>
+        <dd>
+          - An integrated terminal would be nice, but that is just a quibble.
+          It's hard to find many cons with<strong> Sublime Text </strong>.
+        </dd>
+      </dl>
+      <h3>4.NetBeans</h3>
+      <dl>
+        <dt>Pros&Cons</dt>
+        <dd>
+          + Formatting and defining rules for each language is a very useful
+          feature in this<strong> IDE </strong>.
+        </dd>
+        <dd>
+          + The code can be deployed very easy from<strong> Netbeans </strong>
+          itself.
+        </dd>
+        <dd>
+          - It should provide more themes and background colors for the code
+        </dd>
+        window. Some dark themes are good but they slow down the system.<br />
+        <dd>
+          - There have been a few bugs in the latest version of<strong>
+            NetBeans </strong
+          >. <br />
+          <strong> NetBean's </strong>developer should resolve those bugs.
+        </dd>
+      </dl>
+      <h3>5.PyCharm</h3>
+      <dl>
+        <dt>Pros&Cons</dt>
+        <dd>+ Data science scripting.</dd>
+        <dd>+ Frontend development based on Python.</dd>
+        <dd>
+          - Community edition is, while quite usable, far behind the paid
+          alternative. At least a basic database support would be nice.
+        </dd>
+      </dl>
+    </div>
+
+    <hr />
+    <div style="background-color: lightblue">
+      <u><h1 style="text-align: center" style="">HomeWork2</h1></u>
+      <hr />
+      <h1>Top 10 In-Demand Programming Languages in 2021</h1>
+      <h2>Top Programming Languages 2021</h2>
+      <p>
+        Today we are using technology and it is having an effect.Most people are
+        now effectively using computer-understood languages and programming
+        languages.<br />
+        People control computers and write programs and create software. There
+        are two programming languages: advanced programming languages <br />
+        and low-level programming languages. Advanced programming language is
+        easy to understand and can write words and source code symbols,<br />
+        for example<strong> -( Java, C ++, PHP) </strong>Advanced programming
+        language is understood as a business model that can run as fast as the
+        program provides the cost of the vehicle.<br />
+        Of the many programming languages so far,which one is the best in<strong>
+          2021 </strong
+        >and how will it be used in the future ? Therefore,programmers are
+        needed in the future.
+      </p>
+      <hr />
+      <h2>
+        <span style="border: 1px solid darkblue"
+          >Most Popular Technologies</span
+        >
+      </h2>
+      <img
+        src="image/top-technology.png"
+        alt="Most Popular Technologies"
+        width="400"
+        height="300"
+      />
+      <p>
+        Programming language<strong> 2021 </strong>for game development and much
+        more. We are<br />
+        compiling a list of<mark> The Top 10 Programming Languages </mark>of the
+        future that<br />
+        will emerge in<strong> 2021</strong>. Next year could take the
+        programming world to a whole<br />
+        new place Programming languages are considered to be a hierarchical
+        era.<br />No more doors. Mobile app development; Web development၊ Let's
+        explore the new <br />programming language<strong> 2021 </strong>for
+        game development and much more.
+      </p>
+      <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>Javascript</li>
+        <li>Golang</li>
+        <li>Swift</li>
+        <li>PHP</li>
+        <li>Kotlin</li>
+        <li>Ruby</li>
+        <li>R</li>
+      </ul>
+      <hr />
+      <h2>Types of Programming Languages</h2>
+      <p>
+        Developers use suitable programming languages for their own
+        particular<br />
+        project purpose or syntax they want to use to generate instructions.<br />
+        Here are different sorts of programming languages they use-
+      </p>
+      <li>
+        <a
+          target="_blank"
+          href="https://www.youtube.com/watch?v=cVgMCSyRGZ4&t=132s"
+          ><img src="image/icons8-youtube-50.png"
+        /></a>
+      </li>
+      <hr />
+      <h2>Low-level Languages</h2>
+      <p>
+        Using these kinds of languages offers abstraction from the hardware and
+        are depicted in the binary<br />
+        form that is either<i> 0 or 1 </i>referred to as machine
+        instruction.<strong> Low-level </strong>languages also have two
+        types<strong
+          ><br />
+          Machine-level languages.<br />
+          Assembly Level Languages.</strong
+        >
+      </p>
+      <hr />
+      <h2>High-level Languages</h2>
+      <p>
+        It permits developers to code programs that are not related to the type
+        of<br />
+        computer. These are close to human languages and understandable
+        easily,<br />
+        it’s just that it needs attention for the problem<strong> LogiC </strong
+        >. It has advantages<br />
+        like Easy to maintain and learn Portability with the
+        machine-independency.
+      </p>
+      <hr />
+
+      <h2>
+        Quoted From That Website<br />
+        Written by Nidhi Sharma | Mar 25, 2021
+      </h2>
+      <a
+        target="_blank"
+        href="https://www.brsoftech.com/blog/top-programming-languages-of-the-future/"
+        ><img src="image/google-logo.png"
+      /></a>
+    </div>
+
+    <hr />
+    <div style="background-color: lightcyan">
+      <u> <h1 style="text-align: center">HomeWork3</h1></u>
+      <hr />
+      <h1 style="text-align: center; margin: 0">"Salary"</h1>
+      <p style="font-family: serif">
+        We can see in the<strong> US </strong> , mobile manufacturers and
+        academics tend to have higher pay relative to other jobs compared to the
+        global developer population.The highest-paid are engineering managers,
+        <strong> SREs,DevOps Professionals, and Data Engineers.</strong>
+        Engineering manager, SREs,DevOps, and,data engineers see salaries if
+        they experience them, but Designers have more than 10 years of
+        experience on average but are the lowest-paid.
+      </p>
+      <h2 style="text-align: center">
+        Changes in salary data from 2020 to 2021
+      </h2>
+      <div style="text-align: center">
+        <img
+          src="image/Screenshot (5).png"
+          ;
+          alt="Changes in salary data from 2020 to 2021"
+          width="400"
+          height="300"
+        />
+      </div>
+      <h3 style="text-align: center">
+        Brittany Meiling, Los Angeles Times, July 31, 2021,
+      </h3>
+      <hr />
+      <h1 style="text-align: center">
+        "Employers bow to tech workers in hottest job market since the dot-com
+        era"
+      </h1>
+      <p style="font-family: serif">
+        A skilled Developer is well-known for hearing many customers and says
+        that technology has excelled in employment prospects for the past decade
+        and has been catalyzed to an unexpected level in 20 years.Software
+        Developers Are most demanded in IT developers. IT's amazing how quickly
+        it can advertise businesses around the world. Companies that have
+        succeeded in attracting and retaining top talent will be those taking
+        the time to build a fast ITfound that between late 2019 and late 2020,
+        an average pay increase of 3.6 per cent was seen.That's a lot Although
+        not, annual increases of less than 1% are a significant jump compared to
+        2017 and 2019track approach that gives technicians flexibility and
+        control over their work environment.
+      </p>
+    </div>
+    <hr />
+  </body>
+</html>

@@ -1,0 +1,23 @@
+h1 {
+  color: black;
+  font-size: 40px;
+  padding: 10px;
+  height: 5%;
+  width: 100%;
+  background-color: darkslateblue;
+}
+h2 {
+  color: darkblue;
+  font-size: larger;
+  background-color: mintcream;
+  padding: 10pt;
+  height: 3%;
+  width: 25%;
+}
+p {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+ul > li {
+  color: rgb(19, 36, 36);
+}
